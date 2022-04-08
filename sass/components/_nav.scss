@@ -1,0 +1,97 @@
+/* Navigation */
+
+nav {
+    z-index: 10;
+    position: fixed;
+    padding: 25px;
+    width: 100vw;
+}
+
+a {
+    margin-right: 25px;
+    color: var(--on-primary);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.dark-nav {
+    color: var(--dark-nav);
+}
+
+a:hover,
+a:focus {
+    color: var(--hightlight-nav);
+    // border-bottom: 3px solid;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+
+/* Home Section */
+
+#home {
+    /* background: var(--on-background-alt); */
+    color: var(--on-primary);
+    background-image: linear-gradient(to right bottom, var(--background-img), var(--background-img)), url(../media/img/backgournd.jpg);
+    background-size: contain;
+    background-position: top;
+    position: relative;
+    height: 480px;
+}
+
+.home-container {
+    margin-top: 90px;
+    margin-bottom: -270px;
+    position: absolute;
+}
+
+.personal-image img {
+    height: 384px;
+    padding: 0 15px;
+    margin-top: 70px;
+}
+
+.personal-item {
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 63px;
+}
+
+.personal-info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.list-inline-item {
+    margin-right: 16px;
+    list-style: none;
+    display: inline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.personal-info {
+    flex: 0 0 41%;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.personal-info span {
+    font-weight: 300;
+}
+
+.personal-platform {
+    flex: 0 0 100%;
+    margin-left: 16px;
+}

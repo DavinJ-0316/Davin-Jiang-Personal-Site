@@ -1,0 +1,90 @@
+// Mobile
+@media screen and (max-width: 520px) {
+    .page-content {
+        width: 360px !important;
+    }
+    .services {
+        width: 360px !important;
+    }
+    .resume-page-sub {
+        width: 360px !important;
+    }
+    .resume-page-sub-container {
+        width: 360px !important;
+    }
+    .personal-info {
+        margin: 0px;
+        flex: 0 0 30%;
+    }
+    .text-gray {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #home {
+        height: 612px;
+        background-size: cover;
+    }
+    .home-container {
+        margin-left: 39px !important;
+    }
+    .row {
+        padding: 0 15px;
+    }
+    h1 {
+        font-family: "Poppins", sans-serif;
+        margin: 0 0 16px;
+    }
+    #nav>a {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .page-content {
+        width: 520px;
+    }
+    .resume-page-sub {
+        flex-direction: column;
+        // margin-left: -10px;
+    }
+    .services {
+        flex-direction: column;
+        width: 520px;
+    }
+    .resume-page-sub-container {
+        width: 520px;
+    }
+    .job-title {
+        margin: 0 0 16px;
+    }
+    .personal-info {
+        margin: 0px;
+        flex: 0 0 50%;
+    }
+    .personal-platform {
+        margin-left: 0px;
+    }
+    .personal-info-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+//Tablet
+@media screen and (max-width: 1110px) {
+    .home-container {
+        margin-top: 0;
+        margin-left: 90px;
+    }
+    .resume-page-sub {
+        width: 700px;
+    }
+    .service-page-container {
+        min-width: 700px;
+    }
+    .personal-image img {
+        display: none;
+    }
+}

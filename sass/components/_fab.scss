@@ -1,0 +1,11 @@
+/* fab */
+
+.fab {
+    font-size: 19px;
+    cursor: pointer;
+    color: var(--toggle);
+}
+
+.fab:hover {
+    color: var(--on-background);
+}

@@ -1,0 +1,124 @@
+/* Resume Section */
+
+#resume {
+    margin-top: 144px;
+}
+
+.resume-page-sub {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 190px;
+    width: 1110px;
+}
+
+.service-page-container {
+    min-width: 1080px;
+    margin-top: 24px;
+}
+
+.services {
+    display: flex;
+}
+
+.services-item {
+    background-color: var(--skills);
+    box-shadow: 3px 3px 8px 0px rgba(145, 145, 145, 0.1) !important;
+    margin-top: 30px;
+    border-radius: 1.25rem;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    padding: 30px;
+}
+
+.mb-3 {
+    color: var(--on-year);
+}
+
+.col-lg-4 text-left {
+    padding-left: 0;
+}
+
+.resume-page-sub>div {
+    flex-basis: calc(50% - 32px);
+}
+
+.resume-sub-title {
+    margin-top: 0;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--on-background-alt);
+}
+
+.timelines {
+    border-left: 2px solid var(--timeline-border);
+    padding: 8px 0 8px 48px;
+}
+
+.timelines>div {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.timeline {
+    position: relative;
+    padding: 16px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    border-left: 2px solid var(--hightlight-nav);
+    margin-left: -5px;
+}
+
+.timeline::before {
+    content: "";
+    width: 48px;
+    border-bottom: 2px solid var(--hightlight-nav);
+    position: absolute;
+    left: -48px;
+    top: 8px;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    left: -52px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid var(--hightlight-nav);
+    top: 2px;
+    background: white;
+}
+
+.experience-title {
+    margin: 0 0 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: var(--hightlight-nav);
+}
+
+.experience-meta {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+.experience-year {
+    color: var(--on-year);
+}
+
+.experience-divider {
+    border-right: 1px solid #dadada;
+}
+
+.experience-company {
+    color: var(--on-year);
+}
+
+.experience-description {
+    color: var(--on-year);
+    line-height: 1.75;
+}
+
+.resume-page-sub+.resume-page-sub {
+    margin-top: 32px;
+}

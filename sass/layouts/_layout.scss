@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #{$primary-color-light};
+    --primary-variant: #{$primary-variant-light};
+    --secondary-color: #{$secondary-color-light};
+    --on-primary: #{$on-primary-light};
+    --on-year: #{$on-year-light};
+    --on-background: #{$on-background-light};
+    --on-background-alt: #{$on-background-alt-light};
+    --background: #{$background-light};
+    --box-shadow: #{$box-shadow};
+    --extra-background: #{$extra-background};
+    --hightlight-nav: #{$hightlight-nav};
+    --dark-nav: #{$dark-nav};
+    --background-img: #{$background-img};
+    --toggle: #{$toggle};
+    --timeline-border: #{$timeline-border};
+    --project-description: #{$project-description-light};
+    --skills: #{$skills-light};
+}
+
+[data-theme="dark"] {
+    --primary-color:#{$primary-color-dark};
+    --primary-variant: #{$primary-variant-dark};
+    --secondary-color: #{$secondary-color-dark};
+    --on-primary: #{$on-primary-dark};
+    --on-year: #{$on-year-dark};
+    --on-background: #{$on-background-dark};
+    --on-background-alt: #{$on-background-alt-dark};
+    --background:#{$background-dark};
+    --project-description: #{$project-description-dark};
+    --skills: #{$skills-dark};
+}

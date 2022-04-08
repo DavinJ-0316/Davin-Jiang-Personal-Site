@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- description    -->
+    <meta name="description" content="This is a personal website for front-end developer Davin Jiang" />
+    <meta name="keywords" content="Full stack developer, Davin Jiang, software engineer" />
+    <meta name="author" content="Davin Jiang" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inspiring-shaw-377da5.netlify.app/" />
+    <meta property="og:title" content="Davin Jiang | Front End Developer ©" />
+    <meta property="og:image" content="https://inspiring-shaw-377da5.netlify.app./images/main.png" />
+    <meta property="og:description" content="This is a personal website for front end developer Davin Jiang" />
+    <meta property="og:site_name" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davin Jiang's Website</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/plugins.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tailwind Library -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" /> -->
+</head>
+
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+                <span class="toggle-text">Light</span>
+        <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+                <input type="checkbox" />
+                <div class="slider round"></div>
+            </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a class="navi-home" href="#home"><b>Home</b></a>
+        <a class="navi-resume" href="#resume"><b>Resume</b></a>
+        <a class="navi-projects" href="#portfolio"><b>Portfolio</b></a>
+        <!-- Hamburger Menu (Mobile) -->
+        <div class="menu-mobile">
+            <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+            <!-- Icon -->
+            <i id="text-white" class="text-white fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-container">
+            <div class="row">
+                <div class="personal-image">
+                    <img src="./media/img/davin-1.jpg" alt="Davin Jiang" class="src" />
+                </div>
+                <div class="personal-item">
+                    <h1>I'M Davin Jiang</h1>
+                    <p class="job-title">Front-End Developer</p>
+                    <div class="row">
+                        <div class="personal-info">
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Birthday :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">n/a</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Github :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">github.com/DavinJ-0316</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Phone :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">n/a</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>State :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">Launceston, Tas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="personal-info">
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Age :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">n/a</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Degree :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">Master of IT</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Mail :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">Jinhao.Jiang@utas.edu.au</p>
+                                </div>
+                            </div>
+                            <div class="personal-info-container">
+                                <div>
+                                    <p>Freelance :&nbsp</p>
+                                </div>
+                                <div>
+                                    <p class="text-gray">Available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="personal-platform">
+                            <ul>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-github"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-instagram"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="page-content">
+            <div class="resume-page-sub">
+                <div class="service-page-container">
+                    <h2 class="text-dark mb-3">Skills <span class="base-color">Hightlight</span></h2>
+                    <div class="services">
+                        <!-- Item 01 -->
+                        <div class="col-lg-4 text-left">
+                            <div class="services-item">
+                                <div class="services-content">
+                                    <h5 class="mb-3"><i class="fab fa-react"></i> React</h5>
+                                    <p class="text-muted mb-0">RESTful API interface, Functional/Class components</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 02 -->
+                        <div class="col-lg-4 text-left">
+                            <div class="services-item">
+                                <div class="services-content">
+                                    <h5 class="mb-3"><i class="fab fa-node-js"></i> JavaScript (ES6+)</h5>
+                                    <p class="text-muted mb-0">Scoping, Hosting, Aysnc, <br /> Shallow Clone vs Deep Clone</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 03 -->
+                        <div class="col-lg-4 text-left">
+                            <div class="services-item">
+                                <div class="services-content">
+                                    <h5 class="mb-3"><i class="fab fa-node"></i> Node.js</h5>
+                                    <p class="text-muted mb-0">
+                                        Express.js, Koa.js, <br /> MVC
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-page-sub">
+                <div class="resume-page-sub-container">
+                    <h3 class="resume-sub-title">Education</h3>
+                    <div class="timelines">
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <spans class="experience-company">Apple Inc.</spans>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <spans class="experience-company">Apple Inc.</spans>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <span class="experience-company">Apple Inc.</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-page-sub-container">
+                    <h3 class="resume-sub-title">Experience</h3>
+                    <div class="timelines">
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <spans class="experience-company">Apple Inc.</spans>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <spans class="experience-company">Apple Inc.</spans>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <h4 class="experience-title">Specialization Course</h4>
+                            <div class="experience-meta">
+                                <span class="experience-year">2010</span> &nbsp; <i class="experience-divider"></i> &nbsp;
+                                <span class="experience-company">Apple Inc.</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Portfolio Start  -->
+    <section id="portfolio" class="portfolio py-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div>
+                        <h2 class="text-dark mb-3">Creative <span class="base-color">Works</span></h2>
+                        <p class="text-muted">Meet My Awesome Works and Enjoy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-sly-slider mt-5">
+                <div class="portfolio-frame" id="cycleitems">
+                    <ul class="clearfix">
+                        <!-- Item-01 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Generic Digital Twin" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Generic-Digital-Twin/" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Generic Digital Twin</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Item-02 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Smart Building" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Digital-Twin---Smart-Building/?token=password" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Smart Building</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Item-03 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Metropolis" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Metropolis/" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Metropolis</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Item-04 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Physics" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Physics/" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Physics</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Item-05 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Milky-Way" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Milky-Way/" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Milky Way</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Item-06 -->
+                        <li class="portfolio-item-content">
+                            <img src="media/img/threejs.jpg" alt="Portal" />
+                            <div class="img-overlay text-center">
+                                <div class="img-overlay-content">
+                                    <div class="portfolio-icon">
+                                        <a href="https://davinj-0316.github.io/Portal/" target="_blank">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="media/img/threejs.jpg" class="js-zoom-gallery">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <h5 class="text-project mt-3 mb-0">Portal</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <div class="scrollbar">
+                                <div class="handle">
+                                    <div class="mousearea"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   Portfolio End   -->
+    <!-- Script -->
+    <script src="./javascript/script.js"></script>
+    <!--  JavaScripts  -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="./javascript/jquery-3.4.1.min.js"></script>
+    <!--  Plugins JS  -->
+    <script src="./javascript/plugins.js"></script>
+    <!-- Map Js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRemITiP7JRWpZwLhVt-T2x5MeUFE2KWs"></script>
+    <!--  Custom JS  -->
+    <script src="./javascript/uone.js"></script>
+    <script>
+        slyslider();
+    </script>
+</body>
+
+</html>

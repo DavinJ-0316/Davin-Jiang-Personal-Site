@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: var(--background);
+    font-family: 'Mulish', sans-serif;
+    background-color: var(--background);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+section {
+    // min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+    text-align: left;
+    margin: 0px 0px 16px 0px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--background-img);
+    font-size: 32px;
+    font-weight: normal;
+}
+
+p {
+    text-align: left;
+}
+
+.base-color {
+    color: var(--hightlight-nav) !important;
+}
+
+.text-dark {
+    color: var(--on-background-alt) !important;
+}
+
+.text-project {
+    color: var(--dark-nav);
+}
+
+.text-muted {
+    color: var(--project-description) !important
+}
+
+.job-title {
+    margin: 0px;
+}

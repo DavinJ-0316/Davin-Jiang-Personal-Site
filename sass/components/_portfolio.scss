@@ -1,0 +1,198 @@
+/*-------------------------
+           PORTFOLIO
+  -------------------------*/
+
+.portfolio .portfolio-sly-slider .portfolio-frame {
+    height: 400px;
+    overflow: hidden;
+}
+
+.portfolio .portfolio-sly-slider .portfolio-frame ul {
+    list-style: none;
+    margin: 0;
+    height: 100%;
+    padding: 2px;
+}
+
+.portfolio .portfolio-sly-slider .portfolio-frame ul li {
+    float: left;
+    width: 320px;
+    height: 100%;
+    margin: 0 5px 0 5px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.portfolio .portfolio-sly-slider .portfolio-frame ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+}
+
+.portfolio .portfolio-sly-slider .scrollbar {
+    margin-top: 40px;
+    height: 5px;
+    line-height: 0;
+    border-radius: 0.25rem;
+    background: #ddd;
+}
+
+.portfolio .portfolio-sly-slider .scrollbar .handle {
+    width: 25px !important;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top: -12px;
+    background: var(--hightlight-nav);
+}
+
+.portfolio .portfolio-sly-slider .scrollbar .handle .mousearea {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.portfolio .portfolio-sly-slider .clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.portfolio .portfolio-sly-slider .clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.portfolio .portfolio-item-content {
+    position: relative;
+}
+
+.portfolio .portfolio-item-content:hover .img-overlay-content {
+    opacity: 1;
+}
+
+.portfolio .portfolio-item-content:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.portfolio .portfolio-item-content:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .5s all ease;
+    border-radius: 0.25rem;
+}
+
+.portfolio .img-overlay-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.portfolio .portfolio-icon a {
+    background-color: var(--on-background-alt);
+    width: 35px;
+    height: 35px;
+    line-height: 37px;
+    margin: 0 8px;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-icon a:hover {
+    background-color: var(--hightlight-nav);
+}
+
+.portfolio .portfolio-icon a i {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/*-------------------------
+       Single Portfolio
+  -------------------------*/
+
+.single-portfolio .portfolio-item-owl {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.single-portfolio .portfolio-item-owl img {
+    width: 100%;
+}
+
+.single-portfolio .owl-nav {
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    left: calc(50% - 48px);
+}
+
+.single-portfolio .owl-nav .owl-prev span,
+.single-portfolio .owl-nav .owl-next span {
+    background: #d23e50;
+    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 5px;
+}
+
+.single-portfolio .owl-nav .owl-prev span {
+    user-select: none;
+}
+
+.single-portfolio .owl-carousel .owl-stage-outer {
+    padding-bottom: 10px;
+}
+
+.related-portfolio .owl-nav {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 48px);
+}
+
+.related-portfolio .owl-nav .owl-prev span,
+.related-portfolio .owl-nav .owl-next span {
+    background: #d23e50;
+    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 5px;
+}
+
+.p-title-border {
+    border-right: 1px dotted #929292;
+    border-left: 1px dotted #929292;
+}
